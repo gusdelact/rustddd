@@ -1,4 +1,4 @@
-mod dominio01 {
+pub mod dominio01 {
     pub trait Persistable {
         fn save(&self, id: u32, message: String);
         fn load(&self, id: u32) -> String;
